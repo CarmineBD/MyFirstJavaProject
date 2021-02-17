@@ -14,12 +14,14 @@ public class CalculadoraIntegrationTest {
 
 	@Test
 	public void testSubstract() {
-		fail("Not yet implemented");
+		Calculadora calculadora = new Calculadora()
+		assertEquals(calculadora.substract(4, 2), 6))
 	}
 
 	@Test
 	public void testDivide() {
-		fail("Not yet implemented");
+		Calculadora calculadora = new Calculadora()
+		assertEquals(calculadora.divide(4, 2), 6))
 	}
 
 }
